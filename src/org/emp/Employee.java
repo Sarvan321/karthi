@@ -19,6 +19,10 @@ public void empMail() {
 public void empAddress() {
 System.out.println("empAddress");
 }
+public void empNickName() {
+	System.out.println("sanju");
+
+}
 public static void main(String[] args) {
 	Employee E = new Employee();
 	E.empId();
@@ -27,5 +31,6 @@ public static void main(String[] args) {
 	E.empPhone();
 	E.empMail();
 	E.empAddress();
+	E.empNickName();
 }
 }
